@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Throw</title>
+
+    <style>
+        .dice {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+            border: 1px solid #000;
+        }
+
+        #dice-container {
+            margin-top: 20px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .green {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="dice-container">
+
+        <div id="dice1" class="dice"></div>
+        <div id="dice2" class="dice"></div>
+        <div id="dice3" class="dice"></div>
+    </div>
+    <button onclick="rollDice()">Dice roller</button>
+</body>
+<script src="app.js"></script>
+
+</html>
